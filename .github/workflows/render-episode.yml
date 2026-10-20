@@ -1,0 +1,86 @@
+name: Render episode
+
+# Renders one episode that was pushed to a temporary branch of this repository (render/<page>-day-NN).
+# The branch holds only what that episode needs to render: the Remotion setup, the shared scene code, fonts and the
+# episode's own scenes, images and voice. Start this workflow on that branch (--ref); only the owner can start it.
+# The branch is deleted once the files are downloaded.
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "Episode on this branch, e.g. things-worth-knowing/day-09"
+        required: true
+      parts:
+        description: "What to render, separated by spaces: video wide thumbnails"
+        required: true
+        default: "video wide thumbnails"
+
+jobs:
+  plan:
+    if: github.actor == github.repository_owner && startsWith(github.ref_name, 'render/')
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+    steps:
+      - id: matrix
+        env:
+          DAY: ${{ inputs.day }}
+          PARTS: ${{ inputs.parts }}
+        run: |
+          json=$(python3 - <<'PY'
+          import json, os, re
+          day = os.environ["DAY"].strip()
+          parts = os.environ["PARTS"].split()
+          if not re.fullmatch(r"(things-worth-knowing|a-guy-from-tedim)/day-\d{2}", day):
+              raise SystemExit(f"Bad episode name: {day}")
+          for p in parts:
+              if p not in ("video", "wide", "thumbnails"):
+                  raise SystemExit(f"Bad part: {p}")
+          print(json.dumps({"include": [{"day": day, "part": p, "name": f"{day.replace('/', '-')}-{p}"} for p in parts]}))
+          PY
+          )
+          echo "matrix=$json" >> "$GITHUB_OUTPUT"
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    name: ${{ matrix.name }}
+
+    steps:
+      - name: Check out this branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # Remotion renders with headless Chromium, which needs these system libraries on Ubuntu.
+      - name: Install Chromium dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+            libxrandr2 libgbm1 libpango-1.0-0 libcairo2 libasound2t64
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Render
+        run: npm run render ${{ matrix.day }} ${{ matrix.part }}
+
+      - name: Upload files
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.name }}
+          path: publish/${{ matrix.day }}/
+          if-no-files-found: error
+          retention-days: 1
