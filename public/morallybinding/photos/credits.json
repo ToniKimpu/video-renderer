@@ -1,0 +1,200 @@
+[
+  {
+    "slot": "white_house",
+    "file": "white_house.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:North_Fa%C3%A7ade_White_House.JPG",
+    "title": "File:North Façade White House.JPG",
+    "author": "Nishkid64",
+    "licence": "Public domain",
+    "licence_url": "",
+    "date": "12:29 P.M., 6 July 2007",
+    "description": "White House north facade, Washington DC, July 2007"
+  },
+  {
+    "slot": "max_factory",
+    "file": "max_factory.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Boeing_Renton_Factory_from_the_south,_2019.jpg",
+    "title": "File:Boeing Renton Factory from the south, 2019.jpg",
+    "author": "SounderBruce",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2019-04-02 11:10:34",
+    "description": "Boeing Renton Factory, Washington, April 2019"
+  },
+  {
+    "slot": "a320neo",
+    "file": "a320neo.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Frontier_Airbus_A320neo_N353FR_BWI_MD1.jpg",
+    "title": "File:Frontier Airbus A320neo N353FR BWI MD1.jpg",
+    "author": "Acroterion",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2024-08-22",
+    "description": "Frontier Airbus A320neo at Baltimore, August 2024"
+  },
+  {
+    "slot": "american_737",
+    "file": "american_737.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:American_Boeing_737-800_N923NN_DCA_VA1.jpg",
+    "title": "File:American Boeing 737-800 N923NN DCA VA1.jpg",
+    "author": "Acroterion",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2024-07-31",
+    "description": "American Airlines Boeing 737-800 at Washington National, July 2024"
+  },
+  {
+    "slot": "old_737",
+    "file": "old_737.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Sabena_B-737_OO-SDO.jpg",
+    "title": "File:Sabena B-737 OO-SDO.jpg",
+    "author": "Piergiuliano Chesi",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "date": "Mid 1970s",
+    "description": "Sabena Boeing 737-200, mid-1970s"
+  },
+  {
+    "slot": "max_engine",
+    "file": "max_engine.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:CFMI_LEAP_1B_engine_from_a_Boeing_737-8_MAX.jpg",
+    "title": "File:CFMI LEAP 1B engine from a Boeing 737-8 MAX.jpg",
+    "author": "Thyrome",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "date": "2024-04-29 01:59:40",
+    "description": "CFM LEAP-1B engine on a Boeing 737-8 MAX, April 2024"
+  },
+  {
+    "slot": "faa_hq",
+    "file": "faa_hq.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:DOT_FAA_Orville_Wright_Federal_Building_sign_Washington_DC_2025-03-26_11-54-21_1.jpg",
+    "title": "File:DOT FAA Orville Wright Federal Building sign Washington DC 2025-03-26 11-54-21 1.jpg",
+    "author": "G. Edward Johnson",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "date": "2025-03-26 11:54:21",
+    "description": "FAA Orville Wright Federal Building, Washington DC, March 2025"
+  },
+  {
+    "slot": "lion_air_max",
+    "file": "lion_air_max.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Lion_Air_Boeing_737-MAX8_PK-LQP.jpg",
+    "title": "File:Lion Air Boeing 737-MAX8 PK-LQP.jpg",
+    "author": "PK-REN",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "date": "2018-09-16 12:19:28",
+    "description": "Lion Air 737 MAX 8 PK-LQP (the Flight 610 aircraft), Jakarta, Sept 16, 2018"
+  },
+  {
+    "slot": "ethiopian_max",
+    "file": "ethiopian_max.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Ethiopian_Airlines_ET-AVJ_takeoff_from_TLV_(46461974574).jpg",
+    "title": "File:Ethiopian Airlines ET-AVJ takeoff from TLV (46461974574).jpg",
+    "author": "LLBG Spotter",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "date": "2019-02-08 10:04",
+    "description": "Ethiopian Airlines 737 MAX 8 ET-AVJ (the Flight 302 aircraft), Tel Aviv, Feb 8, 2019"
+  },
+  {
+    "slot": "grounded_max",
+    "file": "grounded_max.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Boeing_737_MAX_grounded_aircraft_near_Boeing_Field,_April_2019.jpg",
+    "title": "File:Boeing 737 MAX grounded aircraft near Boeing Field, April 2019.jpg",
+    "author": "SounderBruce",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2019-04-24 12:47:54",
+    "description": "Grounded Boeing 737 MAX jets near Boeing Field, Seattle, April 2019"
+  },
+  {
+    "slot": "addis_ababa",
+    "file": "addis_ababa.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Sunset_on_the_rising_city,_Addis_Ababa_-_Flickr_-_jeanotr.jpg",
+    "title": "File:Sunset on the rising city, Addis Ababa - Flickr - jeanotr.jpg",
+    "author": "Jean Rebiffé from Addis Ababa, Ethiopia",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "date": "Taken on 21 January 2015, 18:1",
+    "description": "Addis Ababa at sunset, January 2015"
+  },
+  {
+    "slot": "defazio",
+    "file": "defazio.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Peter_DeFazio_official_photo.jpg",
+    "title": "File:Peter DeFazio official photo.jpg",
+    "author": "United States Congress",
+    "licence": "Public domain",
+    "licence_url": "",
+    "date": "2008",
+    "description": "Rep. Peter DeFazio, official photo, 2008"
+  },
+  {
+    "slot": "doj_building",
+    "file": "doj_building.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy_Department_of_Justice_Building.jpg",
+    "title": "File:Robert F. Kennedy Department of Justice Building.jpg",
+    "author": "APK",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "date": "2026-03-31 11:57:44",
+    "description": "Robert F. Kennedy Department of Justice Building, Washington DC, March 2026"
+  },
+  {
+    "slot": "ftc_building",
+    "file": "ftc_building.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:ApexBuildingHighsmith.jpg",
+    "title": "File:ApexBuildingHighsmith.jpg",
+    "author": "Carol M. Highsmith (born 1946)",
+    "licence": "Public domain",
+    "licence_url": "",
+    "date": "2005-11-06",
+    "description": "Apex Building, Federal Trade Commission HQ, Washington DC, Nov 2005"
+  },
+  {
+    "slot": "asilomar",
+    "file": "asilomar.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Entrance_to_the_Asilomar_Conference_Grounds.jpg",
+    "title": "File:Entrance to the Asilomar Conference Grounds.jpg",
+    "author": "Ed Bierman from CA, usa",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "date": "2010-11-13 08:59",
+    "description": "Entrance to the Asilomar Conference Grounds, Pacific Grove, California, Nov 2010"
+  },
+  {
+    "slot": "data_center",
+    "file": "data_center.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+    "title": "File:BalticServers data center.jpg",
+    "author": "BalticServers.com",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "date": "2013-03-17",
+    "description": "Server hall in a data center, March 2013"
+  },
+  {
+    "slot": "capitol",
+    "file": "capitol.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:Capitol_West_Front_at_Dawn_(8498066918).jpg",
+    "title": "Capitol West Front at Dawn (8498066918).jpg",
+    "author": "USCapitol",
+    "licence": "Public domain",
+    "licence_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "date": "2013-02-22 09:22",
+    "description": "US Capitol West Front at dawn, Washington DC, Feb 2013"
+  },
+  {
+    "slot": "max_flight",
+    "file": "max_flight.jpg",
+    "commons_page_url": "https://commons.wikimedia.org/wiki/File:CN-RHI_AIRCRAFT_Boeing_737_MAX_8_-2.jpg",
+    "title": "File:CN-RHI AIRCRAFT Boeing 737 MAX 8 -2.jpg",
+    "author": "Sg1959",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "date": "2026-03-08",
+    "description": "Royal Air Maroc Boeing 737 MAX 8 CN-RHI on approach, March 2026"
+  }
+]

@@ -1,0 +1,1024 @@
+{
+  "words": [
+    {
+      "word": "Washington once let Boeing check much of its own plane.",
+      "offsetSec": 0.0,
+      "durationSec": 3.12,
+      "frame": 0
+    },
+    {
+      "word": "Then two of them fell out of the sky.",
+      "offsetSec": 4.04,
+      "durationSec": 1.48,
+      "frame": 121
+    },
+    {
+      "word": "Last month, America's AI giants promised to police themselves.",
+      "offsetSec": 6.4,
+      "durationSec": 3.44,
+      "frame": 192
+    },
+    {
+      "word": "Their own tests.",
+      "offsetSec": 10.44,
+      "durationSec": 0.6,
+      "frame": 313
+    },
+    {
+      "word": "An auditor they pick.",
+      "offsetSec": 11.5,
+      "durationSec": 1.18,
+      "frame": 345
+    },
+    {
+      "word": "Is it binding?",
+      "offsetSec": 13.18,
+      "durationSec": 0.44,
+      "frame": 395
+    },
+    {
+      "word": "The president said: \"morally binding.\" Here's why that sounds familiar.",
+      "offsetSec": 14.16,
+      "durationSec": 3.64,
+      "frame": 425
+    },
+    {
+      "word": "Boeing was racing Airbus.",
+      "offsetSec": 18.72,
+      "durationSec": 1.22,
+      "frame": 562
+    },
+    {
+      "word": "So it bolted bigger engines onto an old plane, and added hidden software that could push the nose down.",
+      "offsetSec": 20.26,
+      "durationSec": 5.2,
+      "frame": 608
+    },
+    {
+      "word": "Most pilots were never told it existed.",
+      "offsetSec": 26.02,
+      "durationSec": 1.88,
+      "frame": 781
+    },
+    {
+      "word": "Three hundred and forty-six people died in two crashes.",
+      "offsetSec": 29.24,
+      "durationSec": 2.14,
+      "frame": 877
+    },
+    {
+      "word": "Congress found a \"culture of concealment.\" Now AI is racing China.",
+      "offsetSec": 32.32,
+      "durationSec": 4.26,
+      "frame": 970
+    },
+    {
+      "word": "A plan to show new models to the government ninety days before release was cut to thirty, and made voluntary.",
+      "offsetSec": 37.08,
+      "durationSec": 5.44,
+      "frame": 1112
+    },
+    {
+      "word": "But one difference matters.",
+      "offsetSec": 43.2,
+      "durationSec": 1.08,
+      "frame": 1296
+    },
+    {
+      "word": "Boeing had a referee that could ground every plane on Earth.",
+      "offsetSec": 44.98,
+      "durationSec": 2.42,
+      "frame": 1349
+    },
+    {
+      "word": "For the most powerful AI, there isn't one.",
+      "offsetSec": 48.02,
+      "durationSec": 2.08,
+      "frame": 1441
+    },
+    {
+      "word": "Will AI be different?",
+      "offsetSec": 50.76,
+      "durationSec": 0.7,
+      "frame": 1523
+    },
+    {
+      "word": "Tell me in the comments.",
+      "offsetSec": 52.02,
+      "durationSec": 0.62,
+      "frame": 1561
+    }
+  ],
+  "wordTimings": [
+    {
+      "word": "Washington",
+      "offsetSec": 0.0,
+      "durationSec": 0.64,
+      "frame": 0
+    },
+    {
+      "word": "once",
+      "offsetSec": 0.64,
+      "durationSec": 0.42,
+      "frame": 19
+    },
+    {
+      "word": "let",
+      "offsetSec": 1.06,
+      "durationSec": 0.34,
+      "frame": 32
+    },
+    {
+      "word": "Boeing",
+      "offsetSec": 1.4,
+      "durationSec": 0.3,
+      "frame": 42
+    },
+    {
+      "word": "check",
+      "offsetSec": 1.7,
+      "durationSec": 0.34,
+      "frame": 51
+    },
+    {
+      "word": "much",
+      "offsetSec": 2.04,
+      "durationSec": 0.24,
+      "frame": 61
+    },
+    {
+      "word": "of",
+      "offsetSec": 2.28,
+      "durationSec": 0.18,
+      "frame": 68
+    },
+    {
+      "word": "its",
+      "offsetSec": 2.46,
+      "durationSec": 0.12,
+      "frame": 74
+    },
+    {
+      "word": "own",
+      "offsetSec": 2.58,
+      "durationSec": 0.2,
+      "frame": 77
+    },
+    {
+      "word": "plane.",
+      "offsetSec": 2.78,
+      "durationSec": 0.34,
+      "frame": 83
+    },
+    {
+      "word": "Then",
+      "offsetSec": 4.04,
+      "durationSec": 0.16,
+      "frame": 121
+    },
+    {
+      "word": "two",
+      "offsetSec": 4.2,
+      "durationSec": 0.24,
+      "frame": 126
+    },
+    {
+      "word": "of",
+      "offsetSec": 4.44,
+      "durationSec": 0.14,
+      "frame": 133
+    },
+    {
+      "word": "them",
+      "offsetSec": 4.58,
+      "durationSec": 0.14,
+      "frame": 137
+    },
+    {
+      "word": "fell",
+      "offsetSec": 4.72,
+      "durationSec": 0.18,
+      "frame": 142
+    },
+    {
+      "word": "out",
+      "offsetSec": 4.9,
+      "durationSec": 0.16,
+      "frame": 147
+    },
+    {
+      "word": "of",
+      "offsetSec": 5.06,
+      "durationSec": 0.08,
+      "frame": 152
+    },
+    {
+      "word": "the",
+      "offsetSec": 5.14,
+      "durationSec": 0.08,
+      "frame": 154
+    },
+    {
+      "word": "sky.",
+      "offsetSec": 5.22,
+      "durationSec": 0.3,
+      "frame": 157
+    },
+    {
+      "word": "Last",
+      "offsetSec": 6.4,
+      "durationSec": 0.12,
+      "frame": 192
+    },
+    {
+      "word": "month,",
+      "offsetSec": 6.52,
+      "durationSec": 0.3,
+      "frame": 196
+    },
+    {
+      "word": "America's",
+      "offsetSec": 7.28,
+      "durationSec": 0.3,
+      "frame": 218
+    },
+    {
+      "word": "AI",
+      "offsetSec": 7.58,
+      "durationSec": 0.34,
+      "frame": 227
+    },
+    {
+      "word": "giants",
+      "offsetSec": 7.92,
+      "durationSec": 0.36,
+      "frame": 238
+    },
+    {
+      "word": "promised",
+      "offsetSec": 8.28,
+      "durationSec": 0.4,
+      "frame": 248
+    },
+    {
+      "word": "to",
+      "offsetSec": 8.68,
+      "durationSec": 0.3,
+      "frame": 260
+    },
+    {
+      "word": "police",
+      "offsetSec": 8.98,
+      "durationSec": 0.3,
+      "frame": 269
+    },
+    {
+      "word": "themselves.",
+      "offsetSec": 9.28,
+      "durationSec": 0.56,
+      "frame": 278
+    },
+    {
+      "word": "Their",
+      "offsetSec": 10.44,
+      "durationSec": 0.08,
+      "frame": 313
+    },
+    {
+      "word": "own",
+      "offsetSec": 10.52,
+      "durationSec": 0.2,
+      "frame": 316
+    },
+    {
+      "word": "tests.",
+      "offsetSec": 10.72,
+      "durationSec": 0.32,
+      "frame": 322
+    },
+    {
+      "word": "An",
+      "offsetSec": 11.5,
+      "durationSec": 0.08,
+      "frame": 345
+    },
+    {
+      "word": "auditor",
+      "offsetSec": 11.58,
+      "durationSec": 0.32,
+      "frame": 347
+    },
+    {
+      "word": "they",
+      "offsetSec": 11.9,
+      "durationSec": 0.5,
+      "frame": 357
+    },
+    {
+      "word": "pick.",
+      "offsetSec": 12.4,
+      "durationSec": 0.28,
+      "frame": 372
+    },
+    {
+      "word": "Is",
+      "offsetSec": 13.18,
+      "durationSec": 0.14,
+      "frame": 395
+    },
+    {
+      "word": "it",
+      "offsetSec": 13.32,
+      "durationSec": 0.12,
+      "frame": 400
+    },
+    {
+      "word": "binding?",
+      "offsetSec": 13.44,
+      "durationSec": 0.18,
+      "frame": 403
+    },
+    {
+      "word": "The",
+      "offsetSec": 14.16,
+      "durationSec": 0.14,
+      "frame": 425
+    },
+    {
+      "word": "president",
+      "offsetSec": 14.3,
+      "durationSec": 0.26,
+      "frame": 429
+    },
+    {
+      "word": "said:",
+      "offsetSec": 14.56,
+      "durationSec": 0.36,
+      "frame": 437
+    },
+    {
+      "word": "\"morally",
+      "offsetSec": 15.26,
+      "durationSec": 0.24,
+      "frame": 458
+    },
+    {
+      "word": "binding.\"",
+      "offsetSec": 15.5,
+      "durationSec": 0.46,
+      "frame": 465
+    },
+    {
+      "word": "Here's",
+      "offsetSec": 16.64,
+      "durationSec": 0.24,
+      "frame": 499
+    },
+    {
+      "word": "why",
+      "offsetSec": 16.88,
+      "durationSec": 0.12,
+      "frame": 506
+    },
+    {
+      "word": "that",
+      "offsetSec": 17.0,
+      "durationSec": 0.16,
+      "frame": 510
+    },
+    {
+      "word": "sounds",
+      "offsetSec": 17.16,
+      "durationSec": 0.24,
+      "frame": 515
+    },
+    {
+      "word": "familiar.",
+      "offsetSec": 17.4,
+      "durationSec": 0.4,
+      "frame": 522
+    },
+    {
+      "word": "Boeing",
+      "offsetSec": 18.72,
+      "durationSec": 0.18,
+      "frame": 562
+    },
+    {
+      "word": "was",
+      "offsetSec": 18.9,
+      "durationSec": 0.2,
+      "frame": 567
+    },
+    {
+      "word": "racing",
+      "offsetSec": 19.1,
+      "durationSec": 0.42,
+      "frame": 573
+    },
+    {
+      "word": "Airbus.",
+      "offsetSec": 19.52,
+      "durationSec": 0.42,
+      "frame": 586
+    },
+    {
+      "word": "So",
+      "offsetSec": 20.26,
+      "durationSec": 0.2,
+      "frame": 608
+    },
+    {
+      "word": "it",
+      "offsetSec": 20.46,
+      "durationSec": 0.12,
+      "frame": 614
+    },
+    {
+      "word": "bolted",
+      "offsetSec": 20.58,
+      "durationSec": 0.24,
+      "frame": 617
+    },
+    {
+      "word": "bigger",
+      "offsetSec": 20.82,
+      "durationSec": 0.38,
+      "frame": 625
+    },
+    {
+      "word": "engines",
+      "offsetSec": 21.2,
+      "durationSec": 0.42,
+      "frame": 636
+    },
+    {
+      "word": "onto",
+      "offsetSec": 21.62,
+      "durationSec": 0.24,
+      "frame": 649
+    },
+    {
+      "word": "an",
+      "offsetSec": 21.86,
+      "durationSec": 0.18,
+      "frame": 656
+    },
+    {
+      "word": "old",
+      "offsetSec": 22.04,
+      "durationSec": 0.22,
+      "frame": 661
+    },
+    {
+      "word": "plane,",
+      "offsetSec": 22.26,
+      "durationSec": 0.34,
+      "frame": 668
+    },
+    {
+      "word": "and",
+      "offsetSec": 22.6,
+      "durationSec": 0.44,
+      "frame": 678
+    },
+    {
+      "word": "added",
+      "offsetSec": 23.04,
+      "durationSec": 0.34,
+      "frame": 691
+    },
+    {
+      "word": "hidden",
+      "offsetSec": 23.38,
+      "durationSec": 0.36,
+      "frame": 701
+    },
+    {
+      "word": "software",
+      "offsetSec": 23.74,
+      "durationSec": 0.58,
+      "frame": 712
+    },
+    {
+      "word": "that",
+      "offsetSec": 24.32,
+      "durationSec": 0.2,
+      "frame": 730
+    },
+    {
+      "word": "could",
+      "offsetSec": 24.52,
+      "durationSec": 0.12,
+      "frame": 736
+    },
+    {
+      "word": "push",
+      "offsetSec": 24.64,
+      "durationSec": 0.18,
+      "frame": 739
+    },
+    {
+      "word": "the",
+      "offsetSec": 24.82,
+      "durationSec": 0.16,
+      "frame": 745
+    },
+    {
+      "word": "nose",
+      "offsetSec": 24.98,
+      "durationSec": 0.18,
+      "frame": 749
+    },
+    {
+      "word": "down.",
+      "offsetSec": 25.16,
+      "durationSec": 0.3,
+      "frame": 755
+    },
+    {
+      "word": "Most",
+      "offsetSec": 26.02,
+      "durationSec": 0.24,
+      "frame": 781
+    },
+    {
+      "word": "pilots",
+      "offsetSec": 26.26,
+      "durationSec": 0.34,
+      "frame": 788
+    },
+    {
+      "word": "were",
+      "offsetSec": 26.6,
+      "durationSec": 0.22,
+      "frame": 798
+    },
+    {
+      "word": "never",
+      "offsetSec": 26.82,
+      "durationSec": 0.28,
+      "frame": 805
+    },
+    {
+      "word": "told",
+      "offsetSec": 27.1,
+      "durationSec": 0.24,
+      "frame": 813
+    },
+    {
+      "word": "it",
+      "offsetSec": 27.34,
+      "durationSec": 0.22,
+      "frame": 820
+    },
+    {
+      "word": "existed.",
+      "offsetSec": 27.56,
+      "durationSec": 0.34,
+      "frame": 827
+    },
+    {
+      "word": "Three",
+      "offsetSec": 29.24,
+      "durationSec": 0.12,
+      "frame": 877
+    },
+    {
+      "word": "hundred",
+      "offsetSec": 29.36,
+      "durationSec": 0.12,
+      "frame": 881
+    },
+    {
+      "word": "and",
+      "offsetSec": 29.48,
+      "durationSec": 0.0,
+      "frame": 884
+    },
+    {
+      "word": "forty-six",
+      "offsetSec": 29.48,
+      "durationSec": 0.24,
+      "frame": 884
+    },
+    {
+      "word": "people",
+      "offsetSec": 29.72,
+      "durationSec": 0.48,
+      "frame": 892
+    },
+    {
+      "word": "died",
+      "offsetSec": 30.2,
+      "durationSec": 0.3,
+      "frame": 906
+    },
+    {
+      "word": "in",
+      "offsetSec": 30.5,
+      "durationSec": 0.28,
+      "frame": 915
+    },
+    {
+      "word": "two",
+      "offsetSec": 30.78,
+      "durationSec": 0.22,
+      "frame": 923
+    },
+    {
+      "word": "crashes.",
+      "offsetSec": 31.0,
+      "durationSec": 0.38,
+      "frame": 930
+    },
+    {
+      "word": "Congress",
+      "offsetSec": 32.32,
+      "durationSec": 0.0,
+      "frame": 970
+    },
+    {
+      "word": "found",
+      "offsetSec": 32.32,
+      "durationSec": 0.3,
+      "frame": 970
+    },
+    {
+      "word": "a",
+      "offsetSec": 32.62,
+      "durationSec": 0.28,
+      "frame": 979
+    },
+    {
+      "word": "\"culture",
+      "offsetSec": 32.9,
+      "durationSec": 0.48,
+      "frame": 987
+    },
+    {
+      "word": "of",
+      "offsetSec": 33.38,
+      "durationSec": 0.34,
+      "frame": 1001
+    },
+    {
+      "word": "concealment.\"",
+      "offsetSec": 33.72,
+      "durationSec": 0.72,
+      "frame": 1012
+    },
+    {
+      "word": "Now",
+      "offsetSec": 35.22,
+      "durationSec": 0.06,
+      "frame": 1057
+    },
+    {
+      "word": "AI",
+      "offsetSec": 35.28,
+      "durationSec": 0.42,
+      "frame": 1058
+    },
+    {
+      "word": "is",
+      "offsetSec": 35.7,
+      "durationSec": 0.2,
+      "frame": 1071
+    },
+    {
+      "word": "racing",
+      "offsetSec": 35.9,
+      "durationSec": 0.24,
+      "frame": 1077
+    },
+    {
+      "word": "China.",
+      "offsetSec": 36.14,
+      "durationSec": 0.44,
+      "frame": 1084
+    },
+    {
+      "word": "A",
+      "offsetSec": 37.08,
+      "durationSec": 0.1,
+      "frame": 1112
+    },
+    {
+      "word": "plan",
+      "offsetSec": 37.18,
+      "durationSec": 0.2,
+      "frame": 1115
+    },
+    {
+      "word": "to",
+      "offsetSec": 37.38,
+      "durationSec": 0.18,
+      "frame": 1121
+    },
+    {
+      "word": "show",
+      "offsetSec": 37.56,
+      "durationSec": 0.14,
+      "frame": 1127
+    },
+    {
+      "word": "new",
+      "offsetSec": 37.7,
+      "durationSec": 0.16,
+      "frame": 1131
+    },
+    {
+      "word": "models",
+      "offsetSec": 37.86,
+      "durationSec": 0.24,
+      "frame": 1136
+    },
+    {
+      "word": "to",
+      "offsetSec": 38.1,
+      "durationSec": 0.18,
+      "frame": 1143
+    },
+    {
+      "word": "the",
+      "offsetSec": 38.28,
+      "durationSec": 0.1,
+      "frame": 1148
+    },
+    {
+      "word": "government",
+      "offsetSec": 38.38,
+      "durationSec": 0.2,
+      "frame": 1151
+    },
+    {
+      "word": "ninety",
+      "offsetSec": 38.58,
+      "durationSec": 0.5,
+      "frame": 1157
+    },
+    {
+      "word": "days",
+      "offsetSec": 39.08,
+      "durationSec": 0.36,
+      "frame": 1172
+    },
+    {
+      "word": "before",
+      "offsetSec": 39.44,
+      "durationSec": 0.3,
+      "frame": 1183
+    },
+    {
+      "word": "release",
+      "offsetSec": 39.74,
+      "durationSec": 0.36,
+      "frame": 1192
+    },
+    {
+      "word": "was",
+      "offsetSec": 40.1,
+      "durationSec": 0.44,
+      "frame": 1203
+    },
+    {
+      "word": "cut",
+      "offsetSec": 40.54,
+      "durationSec": 0.16,
+      "frame": 1216
+    },
+    {
+      "word": "to",
+      "offsetSec": 40.7,
+      "durationSec": 0.12,
+      "frame": 1221
+    },
+    {
+      "word": "thirty,",
+      "offsetSec": 40.82,
+      "durationSec": 0.22,
+      "frame": 1225
+    },
+    {
+      "word": "and",
+      "offsetSec": 41.58,
+      "durationSec": 0.26,
+      "frame": 1247
+    },
+    {
+      "word": "made",
+      "offsetSec": 41.84,
+      "durationSec": 0.22,
+      "frame": 1255
+    },
+    {
+      "word": "voluntary.",
+      "offsetSec": 42.06,
+      "durationSec": 0.46,
+      "frame": 1262
+    },
+    {
+      "word": "But",
+      "offsetSec": 43.2,
+      "durationSec": 0.12,
+      "frame": 1296
+    },
+    {
+      "word": "one",
+      "offsetSec": 43.32,
+      "durationSec": 0.24,
+      "frame": 1300
+    },
+    {
+      "word": "difference",
+      "offsetSec": 43.56,
+      "durationSec": 0.32,
+      "frame": 1307
+    },
+    {
+      "word": "matters.",
+      "offsetSec": 43.88,
+      "durationSec": 0.4,
+      "frame": 1316
+    },
+    {
+      "word": "Boeing",
+      "offsetSec": 44.98,
+      "durationSec": 0.16,
+      "frame": 1349
+    },
+    {
+      "word": "had",
+      "offsetSec": 45.14,
+      "durationSec": 0.22,
+      "frame": 1354
+    },
+    {
+      "word": "a",
+      "offsetSec": 45.36,
+      "durationSec": 0.12,
+      "frame": 1361
+    },
+    {
+      "word": "referee",
+      "offsetSec": 45.48,
+      "durationSec": 0.26,
+      "frame": 1364
+    },
+    {
+      "word": "that",
+      "offsetSec": 45.74,
+      "durationSec": 0.34,
+      "frame": 1372
+    },
+    {
+      "word": "could",
+      "offsetSec": 46.08,
+      "durationSec": 0.1,
+      "frame": 1382
+    },
+    {
+      "word": "ground",
+      "offsetSec": 46.18,
+      "durationSec": 0.22,
+      "frame": 1385
+    },
+    {
+      "word": "every",
+      "offsetSec": 46.4,
+      "durationSec": 0.38,
+      "frame": 1392
+    },
+    {
+      "word": "plane",
+      "offsetSec": 46.78,
+      "durationSec": 0.24,
+      "frame": 1403
+    },
+    {
+      "word": "on",
+      "offsetSec": 47.02,
+      "durationSec": 0.22,
+      "frame": 1411
+    },
+    {
+      "word": "Earth.",
+      "offsetSec": 47.24,
+      "durationSec": 0.16,
+      "frame": 1417
+    },
+    {
+      "word": "For",
+      "offsetSec": 48.02,
+      "durationSec": 0.1,
+      "frame": 1441
+    },
+    {
+      "word": "the",
+      "offsetSec": 48.12,
+      "durationSec": 0.1,
+      "frame": 1444
+    },
+    {
+      "word": "most",
+      "offsetSec": 48.22,
+      "durationSec": 0.14,
+      "frame": 1447
+    },
+    {
+      "word": "powerful",
+      "offsetSec": 48.36,
+      "durationSec": 0.4,
+      "frame": 1451
+    },
+    {
+      "word": "AI,",
+      "offsetSec": 48.76,
+      "durationSec": 0.42,
+      "frame": 1463
+    },
+    {
+      "word": "there",
+      "offsetSec": 49.6,
+      "durationSec": 0.06,
+      "frame": 1488
+    },
+    {
+      "word": "isn't",
+      "offsetSec": 49.66,
+      "durationSec": 0.26,
+      "frame": 1490
+    },
+    {
+      "word": "one.",
+      "offsetSec": 49.92,
+      "durationSec": 0.18,
+      "frame": 1498
+    },
+    {
+      "word": "Will",
+      "offsetSec": 50.76,
+      "durationSec": 0.1,
+      "frame": 1523
+    },
+    {
+      "word": "AI",
+      "offsetSec": 50.86,
+      "durationSec": 0.18,
+      "frame": 1526
+    },
+    {
+      "word": "be",
+      "offsetSec": 51.04,
+      "durationSec": 0.16,
+      "frame": 1531
+    },
+    {
+      "word": "different?",
+      "offsetSec": 51.2,
+      "durationSec": 0.26,
+      "frame": 1536
+    },
+    {
+      "word": "Tell",
+      "offsetSec": 52.02,
+      "durationSec": 0.1,
+      "frame": 1561
+    },
+    {
+      "word": "me",
+      "offsetSec": 52.12,
+      "durationSec": 0.12,
+      "frame": 1564
+    },
+    {
+      "word": "in",
+      "offsetSec": 52.24,
+      "durationSec": 0.08,
+      "frame": 1567
+    },
+    {
+      "word": "the",
+      "offsetSec": 52.32,
+      "durationSec": 0.1,
+      "frame": 1570
+    },
+    {
+      "word": "comments.",
+      "offsetSec": 52.42,
+      "durationSec": 0.22,
+      "frame": 1573
+    }
+  ],
+  "scenes": {
+    "hook": 0,
+    "accord": 192,
+    "boeing": 420,
+    "crashes": 877,
+    "airace": 1000,
+    "twist": 1296,
+    "closing": 1523,
+    "_totalFrames": 1639
+  }
+}
