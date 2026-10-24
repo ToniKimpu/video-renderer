@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       day:
-        description: "Episode on this branch, e.g. things-worth-knowing/day-09"
+        description: "Episode on this branch, e.g. things-worth-knowing/day-09 or tzk-vlog/day-01"
         required: true
       parts:
         description: "What to render, separated by spaces: video wide thumbnails"
