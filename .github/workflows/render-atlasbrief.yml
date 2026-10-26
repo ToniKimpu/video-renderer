@@ -67,8 +67,13 @@ jobs:
           sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommon0 \
             libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libpango-1.0-0 libcairo2 libasound2t64
       - run: npm ci
+      # MAPTILER_KEY (repo secret) feeds the bold MapTiler maps; AtlasBrief's remotion.config.ts reads it
+      # from the environment when there is no .env. --gl=swangle gives software WebGL for 3D map shots
+      # (the runners have no GPU); --timeout allows slow 3D frames to finish loading their tiles.
       - name: Render chunk ${{ matrix.i }} (frames ${{ matrix.a }}-${{ matrix.b }})
-        run: npx remotion render src/index.ts "${{ inputs.composition }}" out/chunk_${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }}
+        env:
+          MAPTILER_KEY: ${{ secrets.MAPTILER_KEY }}
+        run: npx remotion render src/index.ts "${{ inputs.composition }}" out/chunk_${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }} --gl=swangle --timeout=120000
       - uses: actions/upload-artifact@v4
         with:
           name: chunk-${{ matrix.i }}
