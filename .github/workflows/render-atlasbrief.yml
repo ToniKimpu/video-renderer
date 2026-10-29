@@ -70,10 +70,12 @@ jobs:
       # MAPTILER_KEY (repo secret) feeds the bold MapTiler maps; AtlasBrief's remotion.config.ts reads it
       # from the environment when there is no .env. --gl=swangle gives software WebGL for 3D map shots
       # (the runners have no GPU); --timeout allows slow 3D frames to finish loading their tiles.
+      # --crf=23 (Remotion's default is 18) roughly halves the file size with no visible loss after YouTube's
+      # own re-encode, so the final MP4 downloads twice as fast (a 23-min video was 2 GB at the default).
       - name: Render chunk ${{ matrix.i }} (frames ${{ matrix.a }}-${{ matrix.b }})
         env:
           MAPTILER_KEY: ${{ secrets.MAPTILER_KEY }}
-        run: npx remotion render src/index.ts "${{ inputs.composition }}" out/chunk_${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }} --gl=swangle --timeout=120000
+        run: npx remotion render src/index.ts "${{ inputs.composition }}" out/chunk_${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }} --gl=swangle --timeout=120000 --crf=23
       - uses: actions/upload-artifact@v4
         with:
           name: chunk-${{ matrix.i }}
