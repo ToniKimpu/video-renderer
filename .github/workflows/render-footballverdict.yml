@@ -1,0 +1,104 @@
+name: Render The Football Verdict
+
+# Renders one The Football Verdict composition that was pushed to a temporary branch of this repository
+# (render/footballverdict-<id>, made by TheFootballVerdict's scripts/send-render.mjs). The branch holds only
+# what that video needs: the Remotion setup, the source files it imports and the public files it uses. Long
+# videos render in parallel frame-range chunks that are then joined. Start it on that branch (--ref); only
+# the owner can start it. The branch and the run's files are deleted once the video is downloaded.
+on:
+  workflow_dispatch:
+    inputs:
+      composition:
+        description: "Remotion composition id"
+        required: true
+      slug:
+        description: "Output name (<slug>.mp4)"
+        required: true
+      total_frames:
+        description: "durationInFrames of the composition"
+        required: true
+      chunks:
+        description: "How many parallel chunks"
+        required: true
+        default: "10"
+
+jobs:
+  plan:
+    if: github.actor == github.repository_owner && startsWith(github.ref_name, 'render/footballverdict-')
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - name: Split frame range
+        id: plan
+        env:
+          T: ${{ inputs.total_frames }}
+          N: ${{ inputs.chunks }}
+          ID: ${{ inputs.composition }}
+          SLUG: ${{ inputs.slug }}
+        run: |
+          [[ "$T" =~ ^[0-9]+$ && "$N" =~ ^[0-9]+$ && "$ID" =~ ^[A-Za-z0-9]+$ && "$SLUG" =~ ^[a-z0-9]+$ ]] || { echo "Bad inputs"; exit 1; }
+          SIZE=$(( (T + N - 1) / N ))
+          M=$(jq -nc --argjson t "$T" --argjson s "$SIZE" --argjson n "$N" \
+            '{include: [range(0; $n) | {i: ., a: (. * $s), b: ([((. + 1) * $s - 1), ($t - 1)] | min)} | select(.a < $t)]}')
+          echo "matrix=$M" >> "$GITHUB_OUTPUT"
+          echo "$M"
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: true
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - name: Check out this branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      # Remotion renders with headless Chromium, which needs these system libraries on Ubuntu.
+      - name: Install Chromium dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommon0 \
+            libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libpango-1.0-0 libcairo2 libasound2t64
+      - run: npm ci
+      # --crf=23 (Remotion's default is 18) roughly halves the file size with no visible loss after YouTube's
+      # own re-encode. No WebGL in these videos, so no --gl flag.
+      - name: Render chunk ${{ matrix.i }} (frames ${{ matrix.a }}-${{ matrix.b }})
+        run: npx remotion render src/index.ts "${{ inputs.composition }}" out/chunk_${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }} --timeout=120000 --crf=23
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.i }}
+          path: out/chunk_${{ matrix.i }}.mp4
+          if-no-files-found: error
+          retention-days: 1
+
+  join:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          path: chunks
+          merge-multiple: true
+      - name: Join chunks
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          ls chunks | sort -t_ -k2 -n | sed 's/^/file chunks\//' > list.txt
+          cat list.txt
+          mkdir -p out
+          # Video is copied as-is; audio is re-encoded once so chunk seams don't click.
+          ffmpeg -hide_banner -f concat -safe 0 -i list.txt -c:v copy -c:a aac -b:a 192k "out/${{ inputs.slug }}.mp4"
+          ls -lh out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.slug }}
+          path: out/${{ inputs.slug }}.mp4
+          if-no-files-found: error
+          retention-days: 1
