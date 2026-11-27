@@ -1,0 +1,2330 @@
+{
+  "words": [
+    {
+      "word": "In March 1962, America's most senior general signed a plan to stage attacks on Americans, and blame them on Cuba.",
+      "offsetSec": 0.0,
+      "durationSec": 6.34,
+      "frame": 0
+    },
+    {
+      "word": "It sounds like a conspiracy theory.",
+      "offsetSec": 7.0,
+      "durationSec": 1.5,
+      "frame": 210
+    },
+    {
+      "word": "Keep that phrase in mind.",
+      "offsetSec": 9.02,
+      "durationSec": 0.94,
+      "frame": 271
+    },
+    {
+      "word": "Cuba sits just ninety miles from Florida, and Fidel Castro had turned it into a communist ally of the Soviet Union.",
+      "offsetSec": 10.9,
+      "durationSec": 5.24,
+      "frame": 327
+    },
+    {
+      "word": "A year earlier, a CIA-backed invasion at the Bay of Pigs had collapsed in three days.",
+      "offsetSec": 16.66,
+      "durationSec": 4.16,
+      "frame": 500
+    },
+    {
+      "word": "Washington still wanted Castro gone.",
+      "offsetSec": 21.48,
+      "durationSec": 1.62,
+      "frame": 644
+    },
+    {
+      "word": "What it needed was a reason the world would accept.",
+      "offsetSec": 23.6,
+      "durationSec": 2.0,
+      "frame": 708
+    },
+    {
+      "word": "So the Joint Chiefs of Staff wrote a memo, titled \"Justification for US Military Intervention in Cuba.\" Here are some of its ideas.",
+      "offsetSec": 26.48,
+      "durationSec": 6.5,
+      "frame": 794
+    },
+    {
+      "word": "Friendly Cubans in Cuban uniforms would stage an attack on the US base at Guantanamo.",
+      "offsetSec": 33.94,
+      "durationSec": 3.5,
+      "frame": 1018
+    },
+    {
+      "word": "A US ship could be blown up in Guantanamo Bay, with Cuba blamed.",
+      "offsetSec": 38.14,
+      "durationSec": 3.02,
+      "frame": 1144
+    },
+    {
+      "word": "The memo calls it a \"Remember the Maine\" incident, after the explosion that helped start America's war with Spain in 1898.",
+      "offsetSec": 41.74,
+      "durationSec": 5.36,
+      "frame": 1252
+    },
+    {
+      "word": "A \"Communist Cuban terror campaign\" in Miami, in other Florida cities, and even in Washington.",
+      "offsetSec": 47.94,
+      "durationSec": 4.82,
+      "frame": 1438
+    },
+    {
+      "word": "A boatload of Cuban refugees sunk on its way to Florida, \"real or simulated.\" An airliner swapped for an empty drone, so it could be \"shot down,\" with a Cuban jet taking the blame.",
+      "offsetSec": 53.42,
+      "durationSec": 9.28,
+      "frame": 1603
+    },
+    {
+      "word": "And one line explains the thinking: \"Casualty lists in US newspapers would cause a helpful wave of national indignation.\" General Lyman Lemnitzer, chairman of the Joint Chiefs, sent it to the Secretary of Defense on March 13th.",
+      "offsetSec": 63.54,
+      "durationSec": 12.62,
+      "frame": 1906
+    },
+    {
+      "word": "Three days later, at a White House meeting with Lemnitzer in the room, President Kennedy said he doubted anything would justify sending in American forces.",
+      "offsetSec": 76.2,
+      "durationSec": 6.1,
+      "frame": 2286
+    },
+    {
+      "word": "Nothing was approved, and none of it was carried out.",
+      "offsetSec": 83.02,
+      "durationSec": 1.98,
+      "frame": 2491
+    },
+    {
+      "word": "That fall, Lemnitzer's term as chairman ended, and he was sent to Europe to command NATO's forces.",
+      "offsetSec": 85.58,
+      "durationSec": 4.02,
+      "frame": 2567
+    },
+    {
+      "word": "For thirty-five years, the memo stayed locked away.",
+      "offsetSec": 90.44,
+      "durationSec": 2.0,
+      "frame": 2713
+    },
+    {
+      "word": "Then in 1997, a board set up to release the Kennedy assassination records made it public, along with about fifteen hundred other pages.",
+      "offsetSec": 93.06,
+      "durationSec": 6.2,
+      "frame": 2792
+    },
+    {
+      "word": "The scary part isn't that it was stopped.",
+      "offsetSec": 99.98,
+      "durationSec": 1.62,
+      "frame": 2999
+    },
+    {
+      "word": "It's that it was typed up, signed, and sent up the chain like ordinary paperwork.",
+      "offsetSec": 102.04,
+      "durationSec": 3.8,
+      "frame": 3061
+    },
+    {
+      "word": "So, a conspiracy theory?",
+      "offsetSec": 106.72,
+      "durationSec": 1.34,
+      "frame": 3202
+    },
+    {
+      "word": "Not this one.",
+      "offsetSec": 108.52,
+      "durationSec": 0.58,
+      "frame": 3256
+    },
+    {
+      "word": "You can read it in the National Archives.",
+      "offsetSec": 109.44,
+      "durationSec": 1.56,
+      "frame": 3283
+    }
+  ],
+  "wordTimings": [
+    {
+      "word": "In",
+      "offsetSec": 0.0,
+      "durationSec": 0.1,
+      "frame": 0
+    },
+    {
+      "word": "March",
+      "offsetSec": 0.1,
+      "durationSec": 0.2,
+      "frame": 3
+    },
+    {
+      "word": "1962,",
+      "offsetSec": 0.3,
+      "durationSec": 0.88,
+      "frame": 9
+    },
+    {
+      "word": "America's",
+      "offsetSec": 1.58,
+      "durationSec": 0.3,
+      "frame": 47
+    },
+    {
+      "word": "most",
+      "offsetSec": 1.88,
+      "durationSec": 0.14,
+      "frame": 56
+    },
+    {
+      "word": "senior",
+      "offsetSec": 2.02,
+      "durationSec": 0.46,
+      "frame": 61
+    },
+    {
+      "word": "general",
+      "offsetSec": 2.48,
+      "durationSec": 0.34,
+      "frame": 74
+    },
+    {
+      "word": "signed",
+      "offsetSec": 2.82,
+      "durationSec": 0.26,
+      "frame": 85
+    },
+    {
+      "word": "a",
+      "offsetSec": 3.08,
+      "durationSec": 0.14,
+      "frame": 92
+    },
+    {
+      "word": "plan",
+      "offsetSec": 3.22,
+      "durationSec": 0.24,
+      "frame": 97
+    },
+    {
+      "word": "to",
+      "offsetSec": 3.46,
+      "durationSec": 0.18,
+      "frame": 104
+    },
+    {
+      "word": "stage",
+      "offsetSec": 3.64,
+      "durationSec": 0.26,
+      "frame": 109
+    },
+    {
+      "word": "attacks",
+      "offsetSec": 3.9,
+      "durationSec": 0.36,
+      "frame": 117
+    },
+    {
+      "word": "on",
+      "offsetSec": 4.26,
+      "durationSec": 0.24,
+      "frame": 128
+    },
+    {
+      "word": "Americans,",
+      "offsetSec": 4.5,
+      "durationSec": 0.42,
+      "frame": 135
+    },
+    {
+      "word": "and",
+      "offsetSec": 5.28,
+      "durationSec": 0.24,
+      "frame": 158
+    },
+    {
+      "word": "blame",
+      "offsetSec": 5.52,
+      "durationSec": 0.2,
+      "frame": 166
+    },
+    {
+      "word": "them",
+      "offsetSec": 5.72,
+      "durationSec": 0.18,
+      "frame": 172
+    },
+    {
+      "word": "on",
+      "offsetSec": 5.9,
+      "durationSec": 0.16,
+      "frame": 177
+    },
+    {
+      "word": "Cuba.",
+      "offsetSec": 6.06,
+      "durationSec": 0.28,
+      "frame": 182
+    },
+    {
+      "word": "It",
+      "offsetSec": 7.0,
+      "durationSec": 0.14,
+      "frame": 210
+    },
+    {
+      "word": "sounds",
+      "offsetSec": 7.14,
+      "durationSec": 0.24,
+      "frame": 214
+    },
+    {
+      "word": "like",
+      "offsetSec": 7.38,
+      "durationSec": 0.18,
+      "frame": 221
+    },
+    {
+      "word": "a",
+      "offsetSec": 7.56,
+      "durationSec": 0.14,
+      "frame": 227
+    },
+    {
+      "word": "conspiracy",
+      "offsetSec": 7.7,
+      "durationSec": 0.34,
+      "frame": 231
+    },
+    {
+      "word": "theory.",
+      "offsetSec": 8.04,
+      "durationSec": 0.46,
+      "frame": 241
+    },
+    {
+      "word": "Keep",
+      "offsetSec": 9.02,
+      "durationSec": 0.1,
+      "frame": 271
+    },
+    {
+      "word": "that",
+      "offsetSec": 9.12,
+      "durationSec": 0.18,
+      "frame": 274
+    },
+    {
+      "word": "phrase",
+      "offsetSec": 9.3,
+      "durationSec": 0.22,
+      "frame": 279
+    },
+    {
+      "word": "in",
+      "offsetSec": 9.52,
+      "durationSec": 0.16,
+      "frame": 286
+    },
+    {
+      "word": "mind.",
+      "offsetSec": 9.68,
+      "durationSec": 0.28,
+      "frame": 290
+    },
+    {
+      "word": "Cuba",
+      "offsetSec": 10.9,
+      "durationSec": 0.12,
+      "frame": 327
+    },
+    {
+      "word": "sits",
+      "offsetSec": 11.02,
+      "durationSec": 0.22,
+      "frame": 331
+    },
+    {
+      "word": "just",
+      "offsetSec": 11.24,
+      "durationSec": 0.28,
+      "frame": 337
+    },
+    {
+      "word": "ninety",
+      "offsetSec": 11.52,
+      "durationSec": 0.3,
+      "frame": 346
+    },
+    {
+      "word": "miles",
+      "offsetSec": 11.82,
+      "durationSec": 0.24,
+      "frame": 355
+    },
+    {
+      "word": "from",
+      "offsetSec": 12.06,
+      "durationSec": 0.22,
+      "frame": 362
+    },
+    {
+      "word": "Florida,",
+      "offsetSec": 12.28,
+      "durationSec": 0.36,
+      "frame": 368
+    },
+    {
+      "word": "and",
+      "offsetSec": 12.98,
+      "durationSec": 0.08,
+      "frame": 389
+    },
+    {
+      "word": "Fidel",
+      "offsetSec": 13.06,
+      "durationSec": 0.18,
+      "frame": 392
+    },
+    {
+      "word": "Castro",
+      "offsetSec": 13.24,
+      "durationSec": 0.4,
+      "frame": 397
+    },
+    {
+      "word": "had",
+      "offsetSec": 13.64,
+      "durationSec": 0.16,
+      "frame": 409
+    },
+    {
+      "word": "turned",
+      "offsetSec": 13.8,
+      "durationSec": 0.16,
+      "frame": 414
+    },
+    {
+      "word": "it",
+      "offsetSec": 13.96,
+      "durationSec": 0.12,
+      "frame": 419
+    },
+    {
+      "word": "into",
+      "offsetSec": 14.08,
+      "durationSec": 0.18,
+      "frame": 422
+    },
+    {
+      "word": "a",
+      "offsetSec": 14.26,
+      "durationSec": 0.2,
+      "frame": 428
+    },
+    {
+      "word": "communist",
+      "offsetSec": 14.46,
+      "durationSec": 0.26,
+      "frame": 434
+    },
+    {
+      "word": "ally",
+      "offsetSec": 14.72,
+      "durationSec": 0.48,
+      "frame": 442
+    },
+    {
+      "word": "of",
+      "offsetSec": 15.2,
+      "durationSec": 0.18,
+      "frame": 456
+    },
+    {
+      "word": "the",
+      "offsetSec": 15.38,
+      "durationSec": 0.1,
+      "frame": 461
+    },
+    {
+      "word": "Soviet",
+      "offsetSec": 15.48,
+      "durationSec": 0.28,
+      "frame": 464
+    },
+    {
+      "word": "Union.",
+      "offsetSec": 15.76,
+      "durationSec": 0.38,
+      "frame": 473
+    },
+    {
+      "word": "A",
+      "offsetSec": 16.66,
+      "durationSec": 0.16,
+      "frame": 500
+    },
+    {
+      "word": "year",
+      "offsetSec": 16.82,
+      "durationSec": 0.16,
+      "frame": 505
+    },
+    {
+      "word": "earlier,",
+      "offsetSec": 16.98,
+      "durationSec": 0.42,
+      "frame": 509
+    },
+    {
+      "word": "a",
+      "offsetSec": 17.56,
+      "durationSec": 0.1,
+      "frame": 527
+    },
+    {
+      "word": "CIA-backed",
+      "offsetSec": 17.66,
+      "durationSec": 0.58,
+      "frame": 530
+    },
+    {
+      "word": "invasion",
+      "offsetSec": 18.24,
+      "durationSec": 0.38,
+      "frame": 547
+    },
+    {
+      "word": "at",
+      "offsetSec": 18.62,
+      "durationSec": 0.26,
+      "frame": 559
+    },
+    {
+      "word": "the",
+      "offsetSec": 18.88,
+      "durationSec": 0.08,
+      "frame": 566
+    },
+    {
+      "word": "Bay",
+      "offsetSec": 18.96,
+      "durationSec": 0.12,
+      "frame": 569
+    },
+    {
+      "word": "of",
+      "offsetSec": 19.08,
+      "durationSec": 0.12,
+      "frame": 572
+    },
+    {
+      "word": "Pigs",
+      "offsetSec": 19.2,
+      "durationSec": 0.24,
+      "frame": 576
+    },
+    {
+      "word": "had",
+      "offsetSec": 19.44,
+      "durationSec": 0.2,
+      "frame": 583
+    },
+    {
+      "word": "collapsed",
+      "offsetSec": 19.64,
+      "durationSec": 0.34,
+      "frame": 589
+    },
+    {
+      "word": "in",
+      "offsetSec": 19.98,
+      "durationSec": 0.22,
+      "frame": 599
+    },
+    {
+      "word": "three",
+      "offsetSec": 20.2,
+      "durationSec": 0.26,
+      "frame": 606
+    },
+    {
+      "word": "days.",
+      "offsetSec": 20.46,
+      "durationSec": 0.36,
+      "frame": 614
+    },
+    {
+      "word": "Washington",
+      "offsetSec": 21.48,
+      "durationSec": 0.28,
+      "frame": 644
+    },
+    {
+      "word": "still",
+      "offsetSec": 21.76,
+      "durationSec": 0.38,
+      "frame": 653
+    },
+    {
+      "word": "wanted",
+      "offsetSec": 22.14,
+      "durationSec": 0.26,
+      "frame": 664
+    },
+    {
+      "word": "Castro",
+      "offsetSec": 22.4,
+      "durationSec": 0.36,
+      "frame": 672
+    },
+    {
+      "word": "gone.",
+      "offsetSec": 22.76,
+      "durationSec": 0.34,
+      "frame": 683
+    },
+    {
+      "word": "What",
+      "offsetSec": 23.6,
+      "durationSec": 0.1,
+      "frame": 708
+    },
+    {
+      "word": "it",
+      "offsetSec": 23.7,
+      "durationSec": 0.08,
+      "frame": 711
+    },
+    {
+      "word": "needed",
+      "offsetSec": 23.78,
+      "durationSec": 0.24,
+      "frame": 713
+    },
+    {
+      "word": "was",
+      "offsetSec": 24.02,
+      "durationSec": 0.32,
+      "frame": 721
+    },
+    {
+      "word": "a",
+      "offsetSec": 24.34,
+      "durationSec": 0.14,
+      "frame": 730
+    },
+    {
+      "word": "reason",
+      "offsetSec": 24.48,
+      "durationSec": 0.2,
+      "frame": 734
+    },
+    {
+      "word": "the",
+      "offsetSec": 24.68,
+      "durationSec": 0.22,
+      "frame": 740
+    },
+    {
+      "word": "world",
+      "offsetSec": 24.9,
+      "durationSec": 0.16,
+      "frame": 747
+    },
+    {
+      "word": "would",
+      "offsetSec": 25.06,
+      "durationSec": 0.2,
+      "frame": 752
+    },
+    {
+      "word": "accept.",
+      "offsetSec": 25.26,
+      "durationSec": 0.34,
+      "frame": 758
+    },
+    {
+      "word": "So",
+      "offsetSec": 26.48,
+      "durationSec": 0.22,
+      "frame": 794
+    },
+    {
+      "word": "the",
+      "offsetSec": 26.7,
+      "durationSec": 0.12,
+      "frame": 801
+    },
+    {
+      "word": "Joint",
+      "offsetSec": 26.82,
+      "durationSec": 0.16,
+      "frame": 805
+    },
+    {
+      "word": "Chiefs",
+      "offsetSec": 26.98,
+      "durationSec": 0.2,
+      "frame": 809
+    },
+    {
+      "word": "of",
+      "offsetSec": 27.18,
+      "durationSec": 0.16,
+      "frame": 815
+    },
+    {
+      "word": "Staff",
+      "offsetSec": 27.34,
+      "durationSec": 0.26,
+      "frame": 820
+    },
+    {
+      "word": "wrote",
+      "offsetSec": 27.6,
+      "durationSec": 0.18,
+      "frame": 828
+    },
+    {
+      "word": "a",
+      "offsetSec": 27.78,
+      "durationSec": 0.14,
+      "frame": 833
+    },
+    {
+      "word": "memo,",
+      "offsetSec": 27.92,
+      "durationSec": 0.22,
+      "frame": 838
+    },
+    {
+      "word": "titled",
+      "offsetSec": 28.14,
+      "durationSec": 0.36,
+      "frame": 844
+    },
+    {
+      "word": "\"Justification",
+      "offsetSec": 28.5,
+      "durationSec": 0.88,
+      "frame": 855
+    },
+    {
+      "word": "for",
+      "offsetSec": 29.38,
+      "durationSec": 0.3,
+      "frame": 881
+    },
+    {
+      "word": "US",
+      "offsetSec": 29.68,
+      "durationSec": 0.24,
+      "frame": 890
+    },
+    {
+      "word": "Military",
+      "offsetSec": 29.92,
+      "durationSec": 0.42,
+      "frame": 898
+    },
+    {
+      "word": "Intervention",
+      "offsetSec": 30.34,
+      "durationSec": 0.44,
+      "frame": 910
+    },
+    {
+      "word": "in",
+      "offsetSec": 30.78,
+      "durationSec": 0.32,
+      "frame": 923
+    },
+    {
+      "word": "Cuba.\"",
+      "offsetSec": 31.1,
+      "durationSec": 0.3,
+      "frame": 933
+    },
+    {
+      "word": "Here",
+      "offsetSec": 32.0,
+      "durationSec": 0.12,
+      "frame": 960
+    },
+    {
+      "word": "are",
+      "offsetSec": 32.12,
+      "durationSec": 0.12,
+      "frame": 964
+    },
+    {
+      "word": "some",
+      "offsetSec": 32.24,
+      "durationSec": 0.12,
+      "frame": 967
+    },
+    {
+      "word": "of",
+      "offsetSec": 32.36,
+      "durationSec": 0.1,
+      "frame": 971
+    },
+    {
+      "word": "its",
+      "offsetSec": 32.46,
+      "durationSec": 0.16,
+      "frame": 974
+    },
+    {
+      "word": "ideas.",
+      "offsetSec": 32.62,
+      "durationSec": 0.36,
+      "frame": 979
+    },
+    {
+      "word": "Friendly",
+      "offsetSec": 33.94,
+      "durationSec": 0.0,
+      "frame": 1018
+    },
+    {
+      "word": "Cubans",
+      "offsetSec": 33.94,
+      "durationSec": 0.4,
+      "frame": 1018
+    },
+    {
+      "word": "in",
+      "offsetSec": 34.34,
+      "durationSec": 0.16,
+      "frame": 1030
+    },
+    {
+      "word": "Cuban",
+      "offsetSec": 34.5,
+      "durationSec": 0.26,
+      "frame": 1035
+    },
+    {
+      "word": "uniforms",
+      "offsetSec": 34.76,
+      "durationSec": 0.42,
+      "frame": 1043
+    },
+    {
+      "word": "would",
+      "offsetSec": 35.18,
+      "durationSec": 0.26,
+      "frame": 1055
+    },
+    {
+      "word": "stage",
+      "offsetSec": 35.44,
+      "durationSec": 0.28,
+      "frame": 1063
+    },
+    {
+      "word": "an",
+      "offsetSec": 35.72,
+      "durationSec": 0.18,
+      "frame": 1072
+    },
+    {
+      "word": "attack",
+      "offsetSec": 35.9,
+      "durationSec": 0.3,
+      "frame": 1077
+    },
+    {
+      "word": "on",
+      "offsetSec": 36.2,
+      "durationSec": 0.18,
+      "frame": 1086
+    },
+    {
+      "word": "the",
+      "offsetSec": 36.38,
+      "durationSec": 0.08,
+      "frame": 1091
+    },
+    {
+      "word": "US",
+      "offsetSec": 36.46,
+      "durationSec": 0.18,
+      "frame": 1094
+    },
+    {
+      "word": "base",
+      "offsetSec": 36.64,
+      "durationSec": 0.22,
+      "frame": 1099
+    },
+    {
+      "word": "at",
+      "offsetSec": 36.86,
+      "durationSec": 0.2,
+      "frame": 1106
+    },
+    {
+      "word": "Guantanamo.",
+      "offsetSec": 37.06,
+      "durationSec": 0.38,
+      "frame": 1112
+    },
+    {
+      "word": "A",
+      "offsetSec": 38.14,
+      "durationSec": 0.22,
+      "frame": 1144
+    },
+    {
+      "word": "US",
+      "offsetSec": 38.36,
+      "durationSec": 0.22,
+      "frame": 1151
+    },
+    {
+      "word": "ship",
+      "offsetSec": 38.58,
+      "durationSec": 0.28,
+      "frame": 1157
+    },
+    {
+      "word": "could",
+      "offsetSec": 38.86,
+      "durationSec": 0.18,
+      "frame": 1166
+    },
+    {
+      "word": "be",
+      "offsetSec": 39.04,
+      "durationSec": 0.12,
+      "frame": 1171
+    },
+    {
+      "word": "blown",
+      "offsetSec": 39.16,
+      "durationSec": 0.18,
+      "frame": 1175
+    },
+    {
+      "word": "up",
+      "offsetSec": 39.34,
+      "durationSec": 0.2,
+      "frame": 1180
+    },
+    {
+      "word": "in",
+      "offsetSec": 39.54,
+      "durationSec": 0.12,
+      "frame": 1186
+    },
+    {
+      "word": "Guantanamo",
+      "offsetSec": 39.66,
+      "durationSec": 0.38,
+      "frame": 1190
+    },
+    {
+      "word": "Bay,",
+      "offsetSec": 40.04,
+      "durationSec": 0.32,
+      "frame": 1201
+    },
+    {
+      "word": "with",
+      "offsetSec": 40.36,
+      "durationSec": 0.2,
+      "frame": 1211
+    },
+    {
+      "word": "Cuba",
+      "offsetSec": 40.56,
+      "durationSec": 0.28,
+      "frame": 1217
+    },
+    {
+      "word": "blamed.",
+      "offsetSec": 40.84,
+      "durationSec": 0.32,
+      "frame": 1225
+    },
+    {
+      "word": "The",
+      "offsetSec": 41.74,
+      "durationSec": 0.14,
+      "frame": 1252
+    },
+    {
+      "word": "memo",
+      "offsetSec": 41.88,
+      "durationSec": 0.16,
+      "frame": 1256
+    },
+    {
+      "word": "calls",
+      "offsetSec": 42.04,
+      "durationSec": 0.3,
+      "frame": 1261
+    },
+    {
+      "word": "it",
+      "offsetSec": 42.34,
+      "durationSec": 0.1,
+      "frame": 1270
+    },
+    {
+      "word": "a",
+      "offsetSec": 42.44,
+      "durationSec": 0.16,
+      "frame": 1273
+    },
+    {
+      "word": "\"Remember",
+      "offsetSec": 42.7,
+      "durationSec": 0.26,
+      "frame": 1281
+    },
+    {
+      "word": "the",
+      "offsetSec": 42.96,
+      "durationSec": 0.22,
+      "frame": 1289
+    },
+    {
+      "word": "Maine\"",
+      "offsetSec": 43.18,
+      "durationSec": 0.26,
+      "frame": 1295
+    },
+    {
+      "word": "incident,",
+      "offsetSec": 43.44,
+      "durationSec": 0.34,
+      "frame": 1303
+    },
+    {
+      "word": "after",
+      "offsetSec": 43.78,
+      "durationSec": 0.46,
+      "frame": 1313
+    },
+    {
+      "word": "the",
+      "offsetSec": 44.24,
+      "durationSec": 0.14,
+      "frame": 1327
+    },
+    {
+      "word": "explosion",
+      "offsetSec": 44.38,
+      "durationSec": 0.3,
+      "frame": 1331
+    },
+    {
+      "word": "that",
+      "offsetSec": 44.68,
+      "durationSec": 0.26,
+      "frame": 1340
+    },
+    {
+      "word": "helped",
+      "offsetSec": 44.94,
+      "durationSec": 0.16,
+      "frame": 1348
+    },
+    {
+      "word": "start",
+      "offsetSec": 45.1,
+      "durationSec": 0.28,
+      "frame": 1353
+    },
+    {
+      "word": "America's",
+      "offsetSec": 45.38,
+      "durationSec": 0.42,
+      "frame": 1361
+    },
+    {
+      "word": "war",
+      "offsetSec": 45.8,
+      "durationSec": 0.12,
+      "frame": 1374
+    },
+    {
+      "word": "with",
+      "offsetSec": 45.92,
+      "durationSec": 0.16,
+      "frame": 1378
+    },
+    {
+      "word": "Spain",
+      "offsetSec": 46.08,
+      "durationSec": 0.28,
+      "frame": 1382
+    },
+    {
+      "word": "in",
+      "offsetSec": 46.36,
+      "durationSec": 0.18,
+      "frame": 1391
+    },
+    {
+      "word": "1898.",
+      "offsetSec": 46.54,
+      "durationSec": 0.56,
+      "frame": 1396
+    },
+    {
+      "word": "A",
+      "offsetSec": 47.94,
+      "durationSec": 0.12,
+      "frame": 1438
+    },
+    {
+      "word": "\"Communist",
+      "offsetSec": 48.06,
+      "durationSec": 0.52,
+      "frame": 1442
+    },
+    {
+      "word": "Cuban",
+      "offsetSec": 48.58,
+      "durationSec": 0.56,
+      "frame": 1457
+    },
+    {
+      "word": "terror",
+      "offsetSec": 49.14,
+      "durationSec": 0.38,
+      "frame": 1474
+    },
+    {
+      "word": "campaign\"",
+      "offsetSec": 49.52,
+      "durationSec": 0.48,
+      "frame": 1486
+    },
+    {
+      "word": "in",
+      "offsetSec": 50.0,
+      "durationSec": 0.18,
+      "frame": 1500
+    },
+    {
+      "word": "Miami,",
+      "offsetSec": 50.18,
+      "durationSec": 0.34,
+      "frame": 1505
+    },
+    {
+      "word": "in",
+      "offsetSec": 50.74,
+      "durationSec": 0.1,
+      "frame": 1522
+    },
+    {
+      "word": "other",
+      "offsetSec": 50.84,
+      "durationSec": 0.18,
+      "frame": 1525
+    },
+    {
+      "word": "Florida",
+      "offsetSec": 51.02,
+      "durationSec": 0.28,
+      "frame": 1531
+    },
+    {
+      "word": "cities,",
+      "offsetSec": 51.3,
+      "durationSec": 0.24,
+      "frame": 1539
+    },
+    {
+      "word": "and",
+      "offsetSec": 51.82,
+      "durationSec": 0.08,
+      "frame": 1555
+    },
+    {
+      "word": "even",
+      "offsetSec": 51.9,
+      "durationSec": 0.2,
+      "frame": 1557
+    },
+    {
+      "word": "in",
+      "offsetSec": 52.1,
+      "durationSec": 0.16,
+      "frame": 1563
+    },
+    {
+      "word": "Washington.",
+      "offsetSec": 52.26,
+      "durationSec": 0.5,
+      "frame": 1568
+    },
+    {
+      "word": "A",
+      "offsetSec": 53.42,
+      "durationSec": 0.14,
+      "frame": 1603
+    },
+    {
+      "word": "boatload",
+      "offsetSec": 53.56,
+      "durationSec": 0.3,
+      "frame": 1607
+    },
+    {
+      "word": "of",
+      "offsetSec": 53.86,
+      "durationSec": 0.16,
+      "frame": 1616
+    },
+    {
+      "word": "Cuban",
+      "offsetSec": 54.02,
+      "durationSec": 0.3,
+      "frame": 1621
+    },
+    {
+      "word": "refugees",
+      "offsetSec": 54.32,
+      "durationSec": 0.42,
+      "frame": 1630
+    },
+    {
+      "word": "sunk",
+      "offsetSec": 54.74,
+      "durationSec": 0.34,
+      "frame": 1642
+    },
+    {
+      "word": "on",
+      "offsetSec": 55.08,
+      "durationSec": 0.2,
+      "frame": 1652
+    },
+    {
+      "word": "its",
+      "offsetSec": 55.28,
+      "durationSec": 0.12,
+      "frame": 1658
+    },
+    {
+      "word": "way",
+      "offsetSec": 55.4,
+      "durationSec": 0.12,
+      "frame": 1662
+    },
+    {
+      "word": "to",
+      "offsetSec": 55.52,
+      "durationSec": 0.12,
+      "frame": 1666
+    },
+    {
+      "word": "Florida,",
+      "offsetSec": 55.64,
+      "durationSec": 0.34,
+      "frame": 1669
+    },
+    {
+      "word": "\"real",
+      "offsetSec": 56.28,
+      "durationSec": 0.26,
+      "frame": 1688
+    },
+    {
+      "word": "or",
+      "offsetSec": 56.54,
+      "durationSec": 0.36,
+      "frame": 1696
+    },
+    {
+      "word": "simulated.\"",
+      "offsetSec": 56.9,
+      "durationSec": 0.48,
+      "frame": 1707
+    },
+    {
+      "word": "An",
+      "offsetSec": 58.07,
+      "durationSec": 0.23,
+      "frame": 1742
+    },
+    {
+      "word": "airliner",
+      "offsetSec": 58.3,
+      "durationSec": 0.42,
+      "frame": 1749
+    },
+    {
+      "word": "swapped",
+      "offsetSec": 58.72,
+      "durationSec": 0.36,
+      "frame": 1762
+    },
+    {
+      "word": "for",
+      "offsetSec": 59.08,
+      "durationSec": 0.22,
+      "frame": 1772
+    },
+    {
+      "word": "an",
+      "offsetSec": 59.3,
+      "durationSec": 0.08,
+      "frame": 1779
+    },
+    {
+      "word": "empty",
+      "offsetSec": 59.38,
+      "durationSec": 0.2,
+      "frame": 1781
+    },
+    {
+      "word": "drone,",
+      "offsetSec": 59.58,
+      "durationSec": 0.3,
+      "frame": 1787
+    },
+    {
+      "word": "so",
+      "offsetSec": 59.88,
+      "durationSec": 0.28,
+      "frame": 1796
+    },
+    {
+      "word": "it",
+      "offsetSec": 60.16,
+      "durationSec": 0.06,
+      "frame": 1805
+    },
+    {
+      "word": "could",
+      "offsetSec": 60.22,
+      "durationSec": 0.12,
+      "frame": 1807
+    },
+    {
+      "word": "be",
+      "offsetSec": 60.34,
+      "durationSec": 0.16,
+      "frame": 1810
+    },
+    {
+      "word": "\"shot",
+      "offsetSec": 60.5,
+      "durationSec": 0.26,
+      "frame": 1815
+    },
+    {
+      "word": "down,\"",
+      "offsetSec": 60.76,
+      "durationSec": 0.44,
+      "frame": 1823
+    },
+    {
+      "word": "with",
+      "offsetSec": 61.34,
+      "durationSec": 0.08,
+      "frame": 1840
+    },
+    {
+      "word": "a",
+      "offsetSec": 61.42,
+      "durationSec": 0.14,
+      "frame": 1843
+    },
+    {
+      "word": "Cuban",
+      "offsetSec": 61.56,
+      "durationSec": 0.18,
+      "frame": 1847
+    },
+    {
+      "word": "jet",
+      "offsetSec": 61.74,
+      "durationSec": 0.26,
+      "frame": 1852
+    },
+    {
+      "word": "taking",
+      "offsetSec": 62.0,
+      "durationSec": 0.26,
+      "frame": 1860
+    },
+    {
+      "word": "the",
+      "offsetSec": 62.26,
+      "durationSec": 0.18,
+      "frame": 1868
+    },
+    {
+      "word": "blame.",
+      "offsetSec": 62.44,
+      "durationSec": 0.26,
+      "frame": 1873
+    },
+    {
+      "word": "And",
+      "offsetSec": 63.54,
+      "durationSec": 0.0,
+      "frame": 1906
+    },
+    {
+      "word": "one",
+      "offsetSec": 63.54,
+      "durationSec": 0.18,
+      "frame": 1906
+    },
+    {
+      "word": "line",
+      "offsetSec": 63.72,
+      "durationSec": 0.24,
+      "frame": 1912
+    },
+    {
+      "word": "explains",
+      "offsetSec": 63.96,
+      "durationSec": 0.36,
+      "frame": 1919
+    },
+    {
+      "word": "the",
+      "offsetSec": 64.32,
+      "durationSec": 0.18,
+      "frame": 1930
+    },
+    {
+      "word": "thinking:",
+      "offsetSec": 64.5,
+      "durationSec": 0.42,
+      "frame": 1935
+    },
+    {
+      "word": "\"Casualty",
+      "offsetSec": 65.5,
+      "durationSec": 0.38,
+      "frame": 1965
+    },
+    {
+      "word": "lists",
+      "offsetSec": 65.88,
+      "durationSec": 0.2,
+      "frame": 1976
+    },
+    {
+      "word": "in",
+      "offsetSec": 66.08,
+      "durationSec": 0.24,
+      "frame": 1982
+    },
+    {
+      "word": "US",
+      "offsetSec": 66.32,
+      "durationSec": 0.24,
+      "frame": 1990
+    },
+    {
+      "word": "newspapers",
+      "offsetSec": 66.56,
+      "durationSec": 0.44,
+      "frame": 1997
+    },
+    {
+      "word": "would",
+      "offsetSec": 67.0,
+      "durationSec": 0.36,
+      "frame": 2010
+    },
+    {
+      "word": "cause",
+      "offsetSec": 67.36,
+      "durationSec": 0.28,
+      "frame": 2021
+    },
+    {
+      "word": "a",
+      "offsetSec": 67.64,
+      "durationSec": 0.4,
+      "frame": 2029
+    },
+    {
+      "word": "helpful",
+      "offsetSec": 68.04,
+      "durationSec": 0.4,
+      "frame": 2041
+    },
+    {
+      "word": "wave",
+      "offsetSec": 68.44,
+      "durationSec": 0.46,
+      "frame": 2053
+    },
+    {
+      "word": "of",
+      "offsetSec": 68.9,
+      "durationSec": 0.28,
+      "frame": 2067
+    },
+    {
+      "word": "national",
+      "offsetSec": 69.18,
+      "durationSec": 0.3,
+      "frame": 2075
+    },
+    {
+      "word": "indignation.\"",
+      "offsetSec": 69.48,
+      "durationSec": 0.46,
+      "frame": 2084
+    },
+    {
+      "word": "General",
+      "offsetSec": 71.02,
+      "durationSec": 0.22,
+      "frame": 2131
+    },
+    {
+      "word": "Lyman",
+      "offsetSec": 71.24,
+      "durationSec": 0.32,
+      "frame": 2137
+    },
+    {
+      "word": "Lemnitzer,",
+      "offsetSec": 71.56,
+      "durationSec": 0.4,
+      "frame": 2147
+    },
+    {
+      "word": "chairman",
+      "offsetSec": 72.3,
+      "durationSec": 0.1,
+      "frame": 2169
+    },
+    {
+      "word": "of",
+      "offsetSec": 72.4,
+      "durationSec": 0.22,
+      "frame": 2172
+    },
+    {
+      "word": "the",
+      "offsetSec": 72.62,
+      "durationSec": 0.08,
+      "frame": 2179
+    },
+    {
+      "word": "Joint",
+      "offsetSec": 72.7,
+      "durationSec": 0.14,
+      "frame": 2181
+    },
+    {
+      "word": "Chiefs,",
+      "offsetSec": 72.84,
+      "durationSec": 0.28,
+      "frame": 2185
+    },
+    {
+      "word": "sent",
+      "offsetSec": 73.62,
+      "durationSec": 0.04,
+      "frame": 2209
+    },
+    {
+      "word": "it",
+      "offsetSec": 73.66,
+      "durationSec": 0.16,
+      "frame": 2210
+    },
+    {
+      "word": "to",
+      "offsetSec": 73.82,
+      "durationSec": 0.1,
+      "frame": 2215
+    },
+    {
+      "word": "the",
+      "offsetSec": 73.92,
+      "durationSec": 0.1,
+      "frame": 2218
+    },
+    {
+      "word": "Secretary",
+      "offsetSec": 74.02,
+      "durationSec": 0.14,
+      "frame": 2221
+    },
+    {
+      "word": "of",
+      "offsetSec": 74.16,
+      "durationSec": 0.38,
+      "frame": 2225
+    },
+    {
+      "word": "Defense",
+      "offsetSec": 74.54,
+      "durationSec": 0.26,
+      "frame": 2236
+    },
+    {
+      "word": "on",
+      "offsetSec": 74.8,
+      "durationSec": 0.2,
+      "frame": 2244
+    },
+    {
+      "word": "March",
+      "offsetSec": 75.0,
+      "durationSec": 0.14,
+      "frame": 2250
+    },
+    {
+      "word": "13th.",
+      "offsetSec": 75.14,
+      "durationSec": 1.02,
+      "frame": 2254
+    },
+    {
+      "word": "Three",
+      "offsetSec": 76.2,
+      "durationSec": 0.2,
+      "frame": 2286
+    },
+    {
+      "word": "days",
+      "offsetSec": 76.4,
+      "durationSec": 0.16,
+      "frame": 2292
+    },
+    {
+      "word": "later,",
+      "offsetSec": 76.56,
+      "durationSec": 0.3,
+      "frame": 2297
+    },
+    {
+      "word": "at",
+      "offsetSec": 76.88,
+      "durationSec": 0.16,
+      "frame": 2306
+    },
+    {
+      "word": "a",
+      "offsetSec": 77.04,
+      "durationSec": 0.1,
+      "frame": 2311
+    },
+    {
+      "word": "White",
+      "offsetSec": 77.14,
+      "durationSec": 0.1,
+      "frame": 2314
+    },
+    {
+      "word": "House",
+      "offsetSec": 77.24,
+      "durationSec": 0.18,
+      "frame": 2317
+    },
+    {
+      "word": "meeting",
+      "offsetSec": 77.42,
+      "durationSec": 0.18,
+      "frame": 2323
+    },
+    {
+      "word": "with",
+      "offsetSec": 77.6,
+      "durationSec": 0.22,
+      "frame": 2328
+    },
+    {
+      "word": "Lemnitzer",
+      "offsetSec": 77.82,
+      "durationSec": 0.34,
+      "frame": 2335
+    },
+    {
+      "word": "in",
+      "offsetSec": 78.16,
+      "durationSec": 0.16,
+      "frame": 2345
+    },
+    {
+      "word": "the",
+      "offsetSec": 78.32,
+      "durationSec": 0.06,
+      "frame": 2350
+    },
+    {
+      "word": "room,",
+      "offsetSec": 78.38,
+      "durationSec": 0.22,
+      "frame": 2351
+    },
+    {
+      "word": "President",
+      "offsetSec": 79.26,
+      "durationSec": 0.0,
+      "frame": 2378
+    },
+    {
+      "word": "Kennedy",
+      "offsetSec": 79.26,
+      "durationSec": 0.36,
+      "frame": 2378
+    },
+    {
+      "word": "said",
+      "offsetSec": 79.62,
+      "durationSec": 0.22,
+      "frame": 2389
+    },
+    {
+      "word": "he",
+      "offsetSec": 79.84,
+      "durationSec": 0.1,
+      "frame": 2395
+    },
+    {
+      "word": "doubted",
+      "offsetSec": 79.94,
+      "durationSec": 0.24,
+      "frame": 2398
+    },
+    {
+      "word": "anything",
+      "offsetSec": 80.18,
+      "durationSec": 0.48,
+      "frame": 2405
+    },
+    {
+      "word": "would",
+      "offsetSec": 80.66,
+      "durationSec": 0.18,
+      "frame": 2420
+    },
+    {
+      "word": "justify",
+      "offsetSec": 80.84,
+      "durationSec": 0.3,
+      "frame": 2425
+    },
+    {
+      "word": "sending",
+      "offsetSec": 81.14,
+      "durationSec": 0.3,
+      "frame": 2434
+    },
+    {
+      "word": "in",
+      "offsetSec": 81.44,
+      "durationSec": 0.18,
+      "frame": 2443
+    },
+    {
+      "word": "American",
+      "offsetSec": 81.62,
+      "durationSec": 0.3,
+      "frame": 2449
+    },
+    {
+      "word": "forces.",
+      "offsetSec": 81.92,
+      "durationSec": 0.38,
+      "frame": 2458
+    },
+    {
+      "word": "Nothing",
+      "offsetSec": 83.02,
+      "durationSec": 0.14,
+      "frame": 2491
+    },
+    {
+      "word": "was",
+      "offsetSec": 83.16,
+      "durationSec": 0.18,
+      "frame": 2495
+    },
+    {
+      "word": "approved,",
+      "offsetSec": 83.34,
+      "durationSec": 0.36,
+      "frame": 2500
+    },
+    {
+      "word": "and",
+      "offsetSec": 84.0,
+      "durationSec": 0.1,
+      "frame": 2520
+    },
+    {
+      "word": "none",
+      "offsetSec": 84.1,
+      "durationSec": 0.12,
+      "frame": 2523
+    },
+    {
+      "word": "of",
+      "offsetSec": 84.22,
+      "durationSec": 0.1,
+      "frame": 2527
+    },
+    {
+      "word": "it",
+      "offsetSec": 84.32,
+      "durationSec": 0.08,
+      "frame": 2530
+    },
+    {
+      "word": "was",
+      "offsetSec": 84.4,
+      "durationSec": 0.12,
+      "frame": 2532
+    },
+    {
+      "word": "carried",
+      "offsetSec": 84.52,
+      "durationSec": 0.2,
+      "frame": 2536
+    },
+    {
+      "word": "out.",
+      "offsetSec": 84.72,
+      "durationSec": 0.28,
+      "frame": 2542
+    },
+    {
+      "word": "That",
+      "offsetSec": 85.58,
+      "durationSec": 0.2,
+      "frame": 2567
+    },
+    {
+      "word": "fall,",
+      "offsetSec": 85.78,
+      "durationSec": 0.3,
+      "frame": 2573
+    },
+    {
+      "word": "Lemnitzer's",
+      "offsetSec": 86.32,
+      "durationSec": 0.4,
+      "frame": 2590
+    },
+    {
+      "word": "term",
+      "offsetSec": 86.72,
+      "durationSec": 0.18,
+      "frame": 2602
+    },
+    {
+      "word": "as",
+      "offsetSec": 86.9,
+      "durationSec": 0.2,
+      "frame": 2607
+    },
+    {
+      "word": "chairman",
+      "offsetSec": 87.1,
+      "durationSec": 0.2,
+      "frame": 2613
+    },
+    {
+      "word": "ended,",
+      "offsetSec": 87.3,
+      "durationSec": 0.36,
+      "frame": 2619
+    },
+    {
+      "word": "and",
+      "offsetSec": 87.88,
+      "durationSec": 0.08,
+      "frame": 2636
+    },
+    {
+      "word": "he",
+      "offsetSec": 87.96,
+      "durationSec": 0.08,
+      "frame": 2639
+    },
+    {
+      "word": "was",
+      "offsetSec": 88.04,
+      "durationSec": 0.08,
+      "frame": 2641
+    },
+    {
+      "word": "sent",
+      "offsetSec": 88.12,
+      "durationSec": 0.14,
+      "frame": 2644
+    },
+    {
+      "word": "to",
+      "offsetSec": 88.26,
+      "durationSec": 0.14,
+      "frame": 2648
+    },
+    {
+      "word": "Europe",
+      "offsetSec": 88.4,
+      "durationSec": 0.16,
+      "frame": 2652
+    },
+    {
+      "word": "to",
+      "offsetSec": 88.56,
+      "durationSec": 0.18,
+      "frame": 2657
+    },
+    {
+      "word": "command",
+      "offsetSec": 88.74,
+      "durationSec": 0.22,
+      "frame": 2662
+    },
+    {
+      "word": "NATO's",
+      "offsetSec": 88.96,
+      "durationSec": 0.36,
+      "frame": 2669
+    },
+    {
+      "word": "forces.",
+      "offsetSec": 89.32,
+      "durationSec": 0.28,
+      "frame": 2680
+    },
+    {
+      "word": "For",
+      "offsetSec": 90.44,
+      "durationSec": 0.12,
+      "frame": 2713
+    },
+    {
+      "word": "thirty-five",
+      "offsetSec": 90.56,
+      "durationSec": 0.34,
+      "frame": 2717
+    },
+    {
+      "word": "years,",
+      "offsetSec": 90.9,
+      "durationSec": 0.28,
+      "frame": 2727
+    },
+    {
+      "word": "the",
+      "offsetSec": 91.36,
+      "durationSec": 0.1,
+      "frame": 2741
+    },
+    {
+      "word": "memo",
+      "offsetSec": 91.46,
+      "durationSec": 0.18,
+      "frame": 2744
+    },
+    {
+      "word": "stayed",
+      "offsetSec": 91.64,
+      "durationSec": 0.26,
+      "frame": 2749
+    },
+    {
+      "word": "locked",
+      "offsetSec": 91.9,
+      "durationSec": 0.22,
+      "frame": 2757
+    },
+    {
+      "word": "away.",
+      "offsetSec": 92.12,
+      "durationSec": 0.32,
+      "frame": 2764
+    },
+    {
+      "word": "Then",
+      "offsetSec": 93.06,
+      "durationSec": 0.16,
+      "frame": 2792
+    },
+    {
+      "word": "in",
+      "offsetSec": 93.34,
+      "durationSec": 0.12,
+      "frame": 2800
+    },
+    {
+      "word": "1997,",
+      "offsetSec": 93.46,
+      "durationSec": 0.52,
+      "frame": 2804
+    },
+    {
+      "word": "a",
+      "offsetSec": 94.48,
+      "durationSec": 0.14,
+      "frame": 2834
+    },
+    {
+      "word": "board",
+      "offsetSec": 94.62,
+      "durationSec": 0.18,
+      "frame": 2839
+    },
+    {
+      "word": "set",
+      "offsetSec": 94.8,
+      "durationSec": 0.24,
+      "frame": 2844
+    },
+    {
+      "word": "up",
+      "offsetSec": 95.04,
+      "durationSec": 0.12,
+      "frame": 2851
+    },
+    {
+      "word": "to",
+      "offsetSec": 95.16,
+      "durationSec": 0.12,
+      "frame": 2855
+    },
+    {
+      "word": "release",
+      "offsetSec": 95.28,
+      "durationSec": 0.2,
+      "frame": 2858
+    },
+    {
+      "word": "the",
+      "offsetSec": 95.48,
+      "durationSec": 0.2,
+      "frame": 2864
+    },
+    {
+      "word": "Kennedy",
+      "offsetSec": 95.68,
+      "durationSec": 0.24,
+      "frame": 2870
+    },
+    {
+      "word": "assassination",
+      "offsetSec": 95.92,
+      "durationSec": 0.4,
+      "frame": 2878
+    },
+    {
+      "word": "records",
+      "offsetSec": 96.32,
+      "durationSec": 0.58,
+      "frame": 2890
+    },
+    {
+      "word": "made",
+      "offsetSec": 96.9,
+      "durationSec": 0.18,
+      "frame": 2907
+    },
+    {
+      "word": "it",
+      "offsetSec": 97.08,
+      "durationSec": 0.14,
+      "frame": 2912
+    },
+    {
+      "word": "public,",
+      "offsetSec": 97.22,
+      "durationSec": 0.26,
+      "frame": 2917
+    },
+    {
+      "word": "along",
+      "offsetSec": 97.7,
+      "durationSec": 0.2,
+      "frame": 2931
+    },
+    {
+      "word": "with",
+      "offsetSec": 97.9,
+      "durationSec": 0.12,
+      "frame": 2937
+    },
+    {
+      "word": "about",
+      "offsetSec": 98.02,
+      "durationSec": 0.14,
+      "frame": 2941
+    },
+    {
+      "word": "fifteen",
+      "offsetSec": 98.16,
+      "durationSec": 0.29,
+      "frame": 2945
+    },
+    {
+      "word": "hundred",
+      "offsetSec": 98.45,
+      "durationSec": 0.15,
+      "frame": 2953
+    },
+    {
+      "word": "other",
+      "offsetSec": 98.6,
+      "durationSec": 0.34,
+      "frame": 2958
+    },
+    {
+      "word": "pages.",
+      "offsetSec": 98.94,
+      "durationSec": 0.32,
+      "frame": 2968
+    },
+    {
+      "word": "The",
+      "offsetSec": 99.98,
+      "durationSec": 0.2,
+      "frame": 2999
+    },
+    {
+      "word": "scary",
+      "offsetSec": 100.18,
+      "durationSec": 0.2,
+      "frame": 3005
+    },
+    {
+      "word": "part",
+      "offsetSec": 100.38,
+      "durationSec": 0.26,
+      "frame": 3011
+    },
+    {
+      "word": "isn't",
+      "offsetSec": 100.64,
+      "durationSec": 0.36,
+      "frame": 3019
+    },
+    {
+      "word": "that",
+      "offsetSec": 101.0,
+      "durationSec": 0.12,
+      "frame": 3030
+    },
+    {
+      "word": "it",
+      "offsetSec": 101.12,
+      "durationSec": 0.08,
+      "frame": 3034
+    },
+    {
+      "word": "was",
+      "offsetSec": 101.2,
+      "durationSec": 0.1,
+      "frame": 3036
+    },
+    {
+      "word": "stopped.",
+      "offsetSec": 101.3,
+      "durationSec": 0.3,
+      "frame": 3039
+    },
+    {
+      "word": "It's",
+      "offsetSec": 102.04,
+      "durationSec": 0.16,
+      "frame": 3061
+    },
+    {
+      "word": "that",
+      "offsetSec": 102.2,
+      "durationSec": 0.1,
+      "frame": 3066
+    },
+    {
+      "word": "it",
+      "offsetSec": 102.3,
+      "durationSec": 0.06,
+      "frame": 3069
+    },
+    {
+      "word": "was",
+      "offsetSec": 102.36,
+      "durationSec": 0.1,
+      "frame": 3071
+    },
+    {
+      "word": "typed",
+      "offsetSec": 102.46,
+      "durationSec": 0.22,
+      "frame": 3074
+    },
+    {
+      "word": "up,",
+      "offsetSec": 102.68,
+      "durationSec": 0.24,
+      "frame": 3080
+    },
+    {
+      "word": "signed,",
+      "offsetSec": 103.12,
+      "durationSec": 0.32,
+      "frame": 3094
+    },
+    {
+      "word": "and",
+      "offsetSec": 103.82,
+      "durationSec": 0.16,
+      "frame": 3115
+    },
+    {
+      "word": "sent",
+      "offsetSec": 103.98,
+      "durationSec": 0.18,
+      "frame": 3119
+    },
+    {
+      "word": "up",
+      "offsetSec": 104.16,
+      "durationSec": 0.16,
+      "frame": 3125
+    },
+    {
+      "word": "the",
+      "offsetSec": 104.32,
+      "durationSec": 0.12,
+      "frame": 3130
+    },
+    {
+      "word": "chain",
+      "offsetSec": 104.44,
+      "durationSec": 0.24,
+      "frame": 3133
+    },
+    {
+      "word": "like",
+      "offsetSec": 105.0,
+      "durationSec": 0.2,
+      "frame": 3150
+    },
+    {
+      "word": "ordinary",
+      "offsetSec": 105.2,
+      "durationSec": 0.32,
+      "frame": 3156
+    },
+    {
+      "word": "paperwork.",
+      "offsetSec": 105.52,
+      "durationSec": 0.32,
+      "frame": 3166
+    },
+    {
+      "word": "So,",
+      "offsetSec": 106.72,
+      "durationSec": 0.34,
+      "frame": 3202
+    },
+    {
+      "word": "a",
+      "offsetSec": 107.2,
+      "durationSec": 0.1,
+      "frame": 3216
+    },
+    {
+      "word": "conspiracy",
+      "offsetSec": 107.3,
+      "durationSec": 0.36,
+      "frame": 3219
+    },
+    {
+      "word": "theory?",
+      "offsetSec": 107.66,
+      "durationSec": 0.4,
+      "frame": 3230
+    },
+    {
+      "word": "Not",
+      "offsetSec": 108.52,
+      "durationSec": 0.24,
+      "frame": 3256
+    },
+    {
+      "word": "this",
+      "offsetSec": 108.76,
+      "durationSec": 0.18,
+      "frame": 3263
+    },
+    {
+      "word": "one.",
+      "offsetSec": 108.94,
+      "durationSec": 0.16,
+      "frame": 3268
+    },
+    {
+      "word": "You",
+      "offsetSec": 109.44,
+      "durationSec": 0.18,
+      "frame": 3283
+    },
+    {
+      "word": "can",
+      "offsetSec": 109.62,
+      "durationSec": 0.14,
+      "frame": 3289
+    },
+    {
+      "word": "read",
+      "offsetSec": 109.76,
+      "durationSec": 0.18,
+      "frame": 3293
+    },
+    {
+      "word": "it",
+      "offsetSec": 109.94,
+      "durationSec": 0.14,
+      "frame": 3298
+    },
+    {
+      "word": "in",
+      "offsetSec": 110.08,
+      "durationSec": 0.14,
+      "frame": 3302
+    },
+    {
+      "word": "the",
+      "offsetSec": 110.22,
+      "durationSec": 0.08,
+      "frame": 3307
+    },
+    {
+      "word": "National",
+      "offsetSec": 110.3,
+      "durationSec": 0.32,
+      "frame": 3309
+    },
+    {
+      "word": "Archives.",
+      "offsetSec": 110.62,
+      "durationSec": 0.38,
+      "frame": 3319
+    }
+  ],
+  "scenes": {
+    "hook": 0,
+    "cuba": 327,
+    "plan": 794,
+    "happened": 2400,
+    "payoff": 2713,
+    "_totalFrames": 3386
+  }
+}

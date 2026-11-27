@@ -1,0 +1,107 @@
+name: Render AtlasBrief long-form
+
+# Renders a long-form composition of the private AtlasBrief repository in parallel
+# chunks (frame ranges), then joins them into one MP4. The repository is checked out
+# with the PRIVATE_REPO_TOKEN secret (read-only). Narration is already committed in the
+# project, so no API key is needed. Only the repository owner can start a run.
+#
+#   gh workflow run render-atlasbrief-longform.yml -R ToniKimpu/video-renderer \
+#     -f composition=LetGo -f slug=letgo -f total_frames=15645 -f chunks=6 -f ref=render/letgo
+#
+# Download only the final artifact (<slug>), then delete all of the run's artifacts.
+on:
+  workflow_dispatch:
+    inputs:
+      composition:
+        description: "Remotion composition id"
+        required: true
+      slug:
+        description: "Output name (<slug>.mp4)"
+        required: true
+      total_frames:
+        description: "durationInFrames of the composition"
+        required: true
+      chunks:
+        description: "How many parallel chunks"
+        required: true
+        default: "6"
+      ref:
+        description: "Branch of AtlasBrief to render from"
+        required: true
+
+jobs:
+  plan:
+    if: github.actor == github.repository_owner
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - name: Split frame range
+        id: plan
+        run: |
+          T=${{ inputs.total_frames }}; N=${{ inputs.chunks }}
+          SIZE=$(( (T + N - 1) / N ))
+          M=$(jq -nc --argjson t "$T" --argjson s "$SIZE" --argjson n "$N" \
+            '{include: [range(0; $n) | {i: ., a: (. * $s), b: ([((. + 1) * $s - 1), ($t - 1)] | min)} | select(.a < $t)]}')
+          echo "matrix=$M" >> "$GITHUB_OUTPUT"
+          echo "$M"
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: true
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - name: Check out the video project
+        uses: actions/checkout@v4
+        with:
+          repository: ToniKimpu/AtlasBrief
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      # Remotion's headless Chromium needs these on Ubuntu.
+      - name: Install Chromium dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommon0 \
+            libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libpango-1.0-0 libcairo2 libasound2t64
+      - run: npm ci
+      - name: Render chunk ${{ matrix.i }} (frames ${{ matrix.a }}-${{ matrix.b }})
+        run: npx remotion render ${{ inputs.composition }} out/chunk_${{ matrix.i }}.mp4 --frames=${{ matrix.a }}-${{ matrix.b }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.i }}
+          path: out/chunk_${{ matrix.i }}.mp4
+          if-no-files-found: error
+          retention-days: 1
+
+  join:
+    needs: render
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunk-*
+          path: chunks
+          merge-multiple: true
+      - name: Join chunks
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          ls chunks | sort -t_ -k2 -n | sed 's/^/file chunks\//' > list.txt
+          cat list.txt
+          mkdir -p out
+          # Video is copied as-is; audio is re-encoded once so chunk seams don't click.
+          ffmpeg -hide_banner -f concat -safe 0 -i list.txt -c:v copy -c:a aac -b:a 192k out/${{ inputs.slug }}.mp4
+          ls -lh out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.slug }}
+          path: out/${{ inputs.slug }}.mp4
+          if-no-files-found: error
+          retention-days: 1

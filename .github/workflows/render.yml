@@ -1,0 +1,93 @@
+name: Render videos
+
+# Renders episodes of the private things-worth-knowing repository on GitHub's machines.
+# The repository is checked out with the PRIVATE_REPO_TOKEN secret (a fine-grained token with read-only
+# "Contents" access to that one repository). Only the repository owner can start a run.
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Episodes to render, separated by spaces (e.g. things-worth-knowing/day-06 a-guy-from-tedim/day-04)"
+        required: true
+      parts:
+        description: "What to render, separated by spaces: video wide thumbnails"
+        required: true
+        default: "video wide thumbnails"
+      ref:
+        description: "Branch of things-worth-knowing to render from"
+        required: true
+        default: "main"
+
+jobs:
+  plan:
+    if: github.actor == github.repository_owner
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
+    steps:
+      - id: matrix
+        env:
+          DAYS: ${{ inputs.days }}
+          PARTS: ${{ inputs.parts }}
+        run: |
+          json=$(python3 - <<'PY'
+          import json, os, re
+          days = os.environ["DAYS"].split()
+          parts = os.environ["PARTS"].split()
+          for d in days:
+              if not re.fullmatch(r"(things-worth-knowing|a-guy-from-tedim)/day-\d{2}", d):
+                  raise SystemExit(f"Bad episode name: {d}")
+          for p in parts:
+              if p not in ("video", "wide", "thumbnails"):
+                  raise SystemExit(f"Bad part: {p}")
+          print(json.dumps({"include": [{"day": d, "part": p, "name": f"{d.replace('/', '-')}-{p}"} for d in days for p in parts]}))
+          PY
+          )
+          echo "matrix=$json" >> "$GITHUB_OUTPUT"
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    name: ${{ matrix.name }}
+
+    steps:
+      - name: Check out the video project
+        uses: actions/checkout@v4
+        with:
+          repository: ToniKimpu/things-worth-knowing
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # Remotion renders with headless Chromium, which needs these system libraries on Ubuntu.
+      - name: Install Chromium dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 \
+            libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+            libxrandr2 libgbm1 libpango-1.0-0 libcairo2 libasound2t64
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Render
+        run: npm run render ${{ matrix.day }} ${{ matrix.part }}
+
+      - name: Upload files
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.name }}
+          path: publish/${{ matrix.day }}/
+          if-no-files-found: error
+          retention-days: 1
